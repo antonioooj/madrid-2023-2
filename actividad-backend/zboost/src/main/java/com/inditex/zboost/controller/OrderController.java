@@ -39,4 +39,8 @@ public class OrderController {
     public OrderDetail getProductDetail(@PathVariable(name = "orderId", required = true) long orderId) {
         return orderService.findOrderDetail(orderId);
     }
+    @GetMapping("/orders/limit/{limit}")
+    public limitDetail getProductDetail(@PathVariable(name = "limit", required = true) long limit) {
+        return limit.findlimit(limit);
+    }
 }

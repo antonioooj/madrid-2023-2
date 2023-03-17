@@ -24,6 +24,7 @@ public class OrderRepositoryImpl extends BaseRepository<Order> implements OrderR
         /*
          * TODO: EJERCICIO 2.a) Recupera un listado de los ultimos N pedidos (recuerda ordenar por fecha)
          */
+
         return List.of();
     }
 
